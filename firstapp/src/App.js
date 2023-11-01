@@ -1,12 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
-
-function Header(){
-  return <h1>Hello world</h1>;
-}
+import Heading from "./Heading";
 
 function App() {
-   return<Header/>
+  return (
+    <div className="App">
+      <Heading />
+    </div>
+  );
 }
 
 export default App;
